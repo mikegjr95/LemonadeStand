@@ -9,18 +9,18 @@ namespace LemonadeStand_3DayStarter
     class Inventory
     {
         // member variables (HAS A)
-        public List<Lemon> lemons;
-        public List<SugarCube> sugarCubes;
-        public List<IceCube> iceCubes;
-        public List<Cup> cups;
+        public List<Lemon> Lemons;
+        public List<SugarCube> SugarCubes;
+        public List<IceCube> IceCubes;
+        public List<Cup> Cups;
 
         // constructor (SPAWNER)
         public Inventory()
         {
-            lemons = new List<Lemon>();
-            sugarCubes = new List<SugarCube>();
-            iceCubes = new List<IceCube>();
-            cups = new List<Cup>();
+            Lemons = new List<Lemon>();
+            SugarCubes = new List<SugarCube>();
+            IceCubes = new List<IceCube>();
+            Cups = new List<Cup>();
         }
 
         // member methods (CAN DO)
@@ -29,7 +29,7 @@ namespace LemonadeStand_3DayStarter
             for(int i = 0; i < numberOfLemons; i++)
             {
                 Lemon lemon = new Lemon();
-                lemons.Add(lemon);
+                Lemons.Add(lemon);
             }
         }
 
@@ -38,7 +38,7 @@ namespace LemonadeStand_3DayStarter
             for(int i = 0; i < numberOfSugarCubes; i++)
             {
                 SugarCube sugarCube = new SugarCube();
-                sugarCubes.Add(sugarCube);
+                SugarCubes.Add(sugarCube);
             }
         }
 
@@ -47,7 +47,7 @@ namespace LemonadeStand_3DayStarter
             for(int i = 0; i < numberOfIceCubes; i++)
             {
                 IceCube iceCube = new IceCube();
-                iceCubes.Add(iceCube);
+                IceCubes.Add(iceCube);
             }
         }
 
@@ -56,7 +56,7 @@ namespace LemonadeStand_3DayStarter
             for(int i = 0; i < numberOfCups; i++)
             {
                 Cup cup = new Cup();
-                cups.Add(cup);
+                Cups.Add(cup);
             }
         }
     }
