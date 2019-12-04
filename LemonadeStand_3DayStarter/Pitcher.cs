@@ -8,7 +8,7 @@ namespace LemonadeStand_3DayStarter
 {
     class Pitcher
     {
-        private int NumberOfCupsPerPitcher = 25;
+        public int NumberOfCupsPerPitcher = 25;
         public int NumberOfCupsLeft;
         public Pitcher()
         {

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand_3DayStarter
 {
-    class Customer
-    {
+    public class Customer
+    {        
+        Random random = new Random();
+            
+        
+        
     }
 }
